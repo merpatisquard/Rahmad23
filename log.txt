@@ -1,0 +1,364 @@
+09-08 19:00:14.290  1305  1347 I ActivityManager: Start proc 1701:com.android.bluetooth/1002 for service {com.android.bluetooth/com.android.bluetooth.btservice.AdapterService}
+09-08 19:00:19.123  1305  2356 W ActivityManager: Permission Denial: opening provider com.vivo.unifiedconfig.UnifiedConfigProvider from ProcessRecord{8f9ace2 1701:com.android.bluetooth/1002} (pid=1701, uid=1002) requires com.vivo.abe.permission.unifiedconfig.provider or com.vivo.abe.permission.unifiedconfig.provider
+09-08 19:00:21.613  1305  2162 D MediaRouterService: Client com.android.bluetooth (pid 1701): Registered
+09-08 19:00:26.519  1305  1327 D SimpleTimeDetectorStrategy: Not setting system clock. New time and system clock are close enough. elapsedRealtimeMillis=45028 newTime=TimestampedValue{mReferenceTimeMillis=15808, mValue=1662638399000} cause=Found good telephony suggestion., bestTelephonySuggestion=TelephonyTimeSuggestion{mSlotIndex='0', mUtcTime=TimestampedValue{mReferenceTimeMillis=15808, mValue=1662638399000}, mDebugInfo=[Sending new time suggestion nitzSignal=TimestampedValue{mReferenceTimeMillis=15808, mValue=NitzData{mOriginalString=22/09/08,11:59:59+28,0, mZoneOffset=25200000, mDstOffset=0, mCurrentTimeMillis=1662638399000, mEmulatorHostTimeZone=null}}, reason=handleNitzReceived(TimestampedValue{mReferenceTimeMillis=15808, mValue=NitzData{mOriginalString=22/09/08,11:59:59+28,0, mZoneOffset=25200000, mDstOffset=0, mCurrentTimeMillis=1662638399000, mEmulatorHostTimeZone=null}})]}, detectionReason=New telephony time suggested. timeSuggestion=TelephonyTimeSuggestion{mSlotIndex='0', mUtcTime=TimestampedValue{mReferenceTimeMillis=15808, mValue=1662638399000}, mDebugInfo=[Sending new time suggestion nitzSignal=TimestampedValue{mReferenceTimeMillis=15808, mValue=NitzData{mOriginalString=22/09/08,11:59:59+28,0, mZoneOffset=25200000, mDstOffset=0, mCurrentTimeMillis=1662638399000, mEmulatorHostTimeZone=null}}, reason=handleNitzReceived(TimestampedValue{mReferenceTimeMillis=15808, mValue=NitzData{mOriginalString=22/09/08,11:59:59+28,0, mZoneOffset=25200000, mDstOffset=0, mCurrentTimeMillis=1662638399000, mEmulatorHostTimeZone=null}})]} systemClockUpdateThreshold=2000 absTimeDifference=1701
+09-08 19:00:26.546  1305  1327 D SimpleTimeDetectorStrategy: Not setting system clock. New time and system clock are close enough. elapsedRealtimeMillis=45055 newTime=TimestampedValue{mReferenceTimeMillis=15808, mValue=1662638399000} cause=Found good telephony suggestion., bestTelephonySuggestion=TelephonyTimeSuggestion{mSlotIndex='0', mUtcTime=TimestampedValue{mReferenceTimeMillis=15808, mValue=1662638399000}, mDebugInfo=[Sending new time suggestion nitzSignal=TimestampedValue{mReferenceTimeMillis=15808, mValue=NitzData{mOriginalString=22/09/08,11:59:59+28,0, mZoneOffset=25200000, mDstOffset=0, mCurrentTimeMillis=1662638399000, mEmulatorHostTimeZone=null}}, reason=handleNitzReceived(TimestampedValue{mReferenceTimeMillis=15808, mValue=NitzData{mOriginalString=22/09/08,11:59:59+28,0, mZoneOffset=25200000, mDstOffset=0, mCurrentTimeMillis=1662638399000, mEmulatorHostTimeZone=null}})]}, detectionReason=New telephony time suggested. timeSuggestion=TelephonyTimeSuggestion{mSlotIndex='1', mUtcTime=TimestampedValue{mReferenceTimeMillis=15808, mValue=1662638399000}, mDebugInfo=[Sending new time suggestion nitzSignal=TimestampedValue{mReferenceTimeMillis=15808, mValue=NitzData{mOriginalString=22/09/08,11:59:59+28,0, mZoneOffset=25200000, mDstOffset=0, mCurrentTimeMillis=1662638399000, mEmulatorHostTimeZone=null}}, reason=handleNitzReceived(TimestampedValue{mReferenceTimeMillis=15808, mValue=NitzData{mOriginalString=22/09/08,11:59:59+28,0, mZoneOffset=25200000, mDstOffset=0, mCurrentTimeMillis=1662638399000, mEmulatorHostTimeZone=null}})]} systemClockUpdateThreshold=2000 absTimeDifference=1701
+09-08 19:00:34.649  1305  1327 D SimpleTimeDetectorStrategy: Not setting system clock. New time and system clock are close enough. elapsedRealtimeMillis=53158 newTime=TimestampedValue{mReferenceTimeMillis=15808, mValue=1662638399000} cause=Found good telephony suggestion., bestTelephonySuggestion=TelephonyTimeSuggestion{mSlotIndex='0', mUtcTime=TimestampedValue{mReferenceTimeMillis=15808, mValue=1662638399000}, mDebugInfo=[Sending new time suggestion nitzSignal=TimestampedValue{mReferenceTimeMillis=15808, mValue=NitzData{mOriginalString=22/09/08,11:59:59+28,0, mZoneOffset=25200000, mDstOffset=0, mCurrentTimeMillis=1662638399000, mEmulatorHostTimeZone=null}}, reason=handleNitzReceived(TimestampedValue{mReferenceTimeMillis=15808, mValue=NitzData{mOriginalString=22/09/08,11:59:59+28,0, mZoneOffset=25200000, mDstOffset=0, mCurrentTimeMillis=1662638399000, mEmulatorHostTimeZone=null}})]}, detectionReason=New network time suggested. timeSuggestion=NetworkTimeSuggestion{mUtcTime=TimestampedValue{mReferenceTimeMillis=51882, mValue=1662638435557}, mDebugInfo=[Origin: NetworkTimeUpdateService. event=3]} systemClockUpdateThreshold=2000 absTimeDifference=1701
+09-08 19:00:34.895  1305  2475 W _V_VivoAmsImpl: mCallerApp.pid =1701,mCallerApp.uid=1002
+09-08 19:00:34.895  1305  2475 W _V_VivoAmsImpl: mCallingPidFilter=1701,mCallingUidFilter=1002
+09-09 00:00:49.936 23779 24647 E SQLiteDatabase: 	at android.database.sqlite.SQLiteDatabase.insertWithOnConflict(SQLiteDatabase.java:1701)
+09-09 00:14:58.609  1701  1701 E BluetoothPhonePolicy: Received unexpected intent, action=android.bluetooth.device.action.ACL_CONNECTED
+09-09 00:14:59.273  1701  2697 E bt_vivo_autoplay: btif_rc_start_update_need_play_status_timer:ck_play alarm_new is NULL
+09-09 00:14:59.399  1701  2697 E bt_btif : btif_rc_get_device_by_bda: device not found, returning NULL!
+09-09 00:14:59.399  1701  2697 E bt_btif : btif_rc_check_handle_pending_play: p_dev NULL
+09-09 00:15:06.404  1701  2697 E bt_btif : bta_dm_pm_btm_status hci_status=36
+09-09 00:15:10.144  1701  2820 E bt_stack: [ERROR:repeating_timer.cc(153)] RunTask: Periodic task execution took 58704 microseconds, longer than interval 23000 microseconds
+09-09 00:15:10.156  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 00:15:10.157  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 00:15:10.157  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507ce01db5f9a030000
+09-09 00:15:10.157  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 00:15:10.157  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():000000000000000001000000000000000000000000000000000000000200000000000000000000005c00000000000000da5f9a03da5f9a03
+09-09 00:15:10.157  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 00:15:10.157  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():0000ffffffffffffffffff7f060022000000060006002c000070020009000e00007094000900100000000400
+09-09 00:22:34.033  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81c6a0 start:1
+09-09 00:23:51.716  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cb00 start:1
+09-09 00:23:58.766  1701  2697 E bt_btif : bta_dm_pm_btm_status hci_status=36
+09-09 00:24:11.033  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81caa0 start:1
+09-09 00:24:11.054  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 00:24:11.077  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 00:26:12.333 13325 13724 E MONITOR : [auto bytemonitor::CPUProcessMonitor::CPUProcessMonitor()::(anonymous class)::operator()(bytemonitor::NoneEventParam *) const:109] Process time now 593502 before 576487, diff：17015 
+09-09 00:29:48.629   473  1594 I libPowerHal: [perfLockAcq] idx:0 hdl:1701 hint:25 pid:473 duration:10000 => ret_hdl:1701
+09-09 00:29:48.629   473  1594 I libPowerHal: [PE] scn:0 hdl:1701 hint:25 comm:mtkpower@1.0-se pid:473
+09-09 00:29:49.045   473  1594 I libPowerHal: [perfLockRel] hdl:1701, idx:0
+09-09 00:29:49.045   473  1594 I libPowerHal: [PD] scn:0 hdl:1701 hint:25 comm:mtkpower@1.0-se pid:473
+09-09 00:33:10.351  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 00:33:10.351  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 00:33:10.352  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507d1014b1ecf030000
+09-09 00:33:10.352  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 00:33:10.352  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():0000000000000000030000000000000001000000000000000200000006000000030000000000000018040000000000004a1ecf034a1ecf03
+09-09 00:33:10.352  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 00:33:10.352  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():0000ffffffffffffffffff7f00709000090024000070940009001800007094000900240000707c0009000700
+09-09 00:39:56.126  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81c5e0 start:1
+09-09 00:39:56.147  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 00:40:03.154  1701  2697 E bt_btif : bta_dm_pm_btm_status hci_status=36
+09-09 00:47:54.085  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000079043d4dc0 start:1
+09-09 00:47:54.106  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 00:47:54.129  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 00:48:01.149  1701  2697 E bt_btif : bta_dm_pm_btm_status hci_status=36
+09-09 00:49:40.453   905   905 E wificond: vivo add tx_good 151656 tx_bad 119 rx_good 321701 tx_retry 13368
+09-09 00:51:11.281  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81ca00 start:1
+09-09 00:51:18.302  1701  2697 E bt_btif : bta_dm_pm_btm_status hci_status=36
+09-09 00:53:42.175  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cb00 start:1
+09-09 00:53:42.196  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 00:53:58.278  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cc90 start:1
+09-09 00:53:58.300  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 00:53:58.323  1701  2820 I chatty  : uid=1002(bluetooth) bt_a2dp_source_ identical 1 line
+09-09 00:53:58.346  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 00:54:02.984  1701  1701 E AvrcpMediaPlayerWrapper: The callback playback state doesn't match the current state
+09-09 00:54:17.166  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81ce00 start:1
+09-09 00:54:17.187  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 00:54:24.200  1701  2697 E bt_btif : bta_dm_pm_btm_status hci_status=36
+09-09 00:57:24.440  1701  2697 E bt_btif : btif_rc_get_device_by_bda: device not found, returning NULL!
+09-09 00:57:24.440  1701  2697 E bt_btif : btif_rc_get_connected_peer_handle: p_dev NULL
+09-09 00:57:24.441  1701  2697 E bt_btif : btif_rc_process_auto_play rc_id == pause set call end pause false
+09-09 00:57:24.620  1701  2697 E bt_btif : btif_rc_get_device_by_bda: device not found, returning NULL!
+09-09 00:57:24.620  1701  2697 E bt_btif : btif_rc_get_connected_peer_handle: p_dev NULL
+09-09 00:57:24.620  1701  2697 E bt_btif : btif_rc_process_auto_play rc_id == pause set call end pause false
+09-09 00:57:32.179  1701  2697 E bt_btif : btif_rc_get_device_by_bda: device not found, returning NULL!
+09-09 00:57:32.179  1701  2697 E bt_btif : btif_rc_get_connected_peer_handle: p_dev NULL
+09-09 00:57:32.179  1701  2697 E bt_btif : btif_rc_process_auto_play rc_id == pause set call end pause false
+09-09 00:57:32.185  1701  2697 E bt_btif : btif_rc_get_device_by_bda: device not found, returning NULL!
+09-09 00:57:32.185  1701  2697 E bt_btif : btif_rc_get_connected_peer_handle: p_dev NULL
+09-09 00:57:32.185  1701  2697 E bt_btif : btif_rc_process_auto_play rc_id == pause set call end pause false
+09-09 00:57:59.234  1701  1701 E AvrcpMediaPlayerList: onMediaKeyEventSessionChanged(PackageName): Media key event session changed to a player we don't have a session for
+09-09 01:00:35.009  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81ce10 start:1
+09-09 01:03:27.133  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cc90 start:1
+09-09 01:03:34.153  1701  2697 E bt_btif : bta_dm_pm_btm_status hci_status=36
+09-09 01:04:40.206   905   905 E wificond: vivo add tx_good 170119 tx_bad 122 rx_good 357789 tx_retry 13767
+09-09 01:04:43.225   905   905 E wificond: vivo add tx_good 170122 tx_bad 122 rx_good 357797 tx_retry 13767
+09-09 01:04:46.245   905   905 E wificond: vivo add tx_good 170125 tx_bad 122 rx_good 357803 tx_retry 13767
+09-09 01:04:49.264   905   905 E wificond: vivo add tx_good 170125 tx_bad 122 rx_good 357809 tx_retry 13767
+09-09 01:04:52.282   905   905 E wificond: vivo add tx_good 170125 tx_bad 122 rx_good 357813 tx_retry 13767
+09-09 01:04:55.300   905   905 E wificond: vivo add tx_good 170133 tx_bad 122 rx_good 357821 tx_retry 13767
+09-09 01:04:58.312   905   905 E wificond: vivo add tx_good 170142 tx_bad 122 rx_good 357838 tx_retry 13767
+09-09 01:05:01.337   905   905 E wificond: vivo add tx_good 170148 tx_bad 122 rx_good 357849 tx_retry 13767
+09-09 01:05:04.351   905   905 E wificond: vivo add tx_good 170162 tx_bad 122 rx_good 357859 tx_retry 13767
+09-09 01:05:07.369   905   905 E wificond: vivo add tx_good 170163 tx_bad 122 rx_good 357863 tx_retry 13767
+09-09 01:05:10.382   905   905 E wificond: vivo add tx_good 170176 tx_bad 122 rx_good 357878 tx_retry 13767
+09-09 01:05:13.407   905   905 E wificond: vivo add tx_good 170178 tx_bad 122 rx_good 357884 tx_retry 13767
+09-09 01:05:16.436   905   905 E wificond: vivo add tx_good 170180 tx_bad 122 rx_good 357889 tx_retry 13767
+09-09 01:05:19.456   905   905 E wificond: vivo add tx_good 170181 tx_bad 122 rx_good 357898 tx_retry 13767
+09-09 01:05:22.471   905   905 E wificond: vivo add tx_good 170183 tx_bad 122 rx_good 357904 tx_retry 13767
+09-09 01:05:25.485   905   905 E wificond: vivo add tx_good 170192 tx_bad 122 rx_good 357911 tx_retry 13767
+09-09 01:05:28.504   905   905 E wificond: vivo add tx_good 170192 tx_bad 122 rx_good 357914 tx_retry 13773
+09-09 01:06:07.925  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cc90 start:1
+09-09 01:06:14.996  1701  2697 E bt_btif : bta_dm_pm_btm_status hci_status=36
+09-09 01:13:23.617  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81caf0 start:1
+09-09 01:13:23.638  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:13:23.661  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:13:30.700  1701  2697 E bt_btif : bta_dm_pm_btm_status hci_status=36
+09-09 01:25:27.940  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000079a0f29d50 start:1
+09-09 01:25:27.962  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:25:27.985  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:25:35.017  1701  2697 E bt_btif : bta_dm_pm_btm_status hci_status=36
+09-09 01:25:44.103  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81c700 start:1
+09-09 01:25:44.118  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:25:44.141  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:27:48.928  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cc10 start:1
+09-09 01:27:48.949  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:27:59.129  1701  2820 E bt_stack: [ERROR:repeating_timer.cc(153)] RunTask: Periodic task execution took 28235 microseconds, longer than interval 23000 microseconds
+09-09 01:28:55.636  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000079a0f29da0 start:1
+09-09 01:28:55.658  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:28:55.680  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:32:09.546  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cca0 start:1
+09-09 01:32:09.567  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:32:09.590  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:32:16.620  1701  2697 E bt_btif : bta_dm_pm_btm_status hci_status=36
+09-09 01:32:22.863  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000079a0f29da0 start:1
+09-09 01:32:56.175  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81ca80 start:1
+09-09 01:32:56.196  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:32:56.219  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:33:52.149  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81ca80 start:1
+09-09 01:33:52.170  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:36:59.527  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cc10 start:1
+09-09 01:37:33.207  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cac0 start:1
+09-09 01:37:40.520  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81ca40 start:1
+09-09 01:37:40.541  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:37:40.564  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:38:11.105  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81c4e0 start:1
+09-09 01:38:56.379  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000079a0f29da0 start:1
+09-09 01:39:01.232  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000079a0f29da0 start:1
+09-09 01:39:01.253  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:39:01.276  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:46:57.780  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81c6d0 start:1
+09-09 01:47:17.776  1701  2697 E bt_btif : btif_rc_get_device_by_bda: device not found, returning NULL!
+09-09 01:47:17.776  1701  2697 E bt_btif : btif_rc_get_connected_peer_handle: p_dev NULL
+09-09 01:47:17.776  1701  2697 E bt_btif : btif_rc_process_auto_play rc_id == pause set call end pause false
+09-09 01:47:17.795  1701  2697 E bt_btif : btif_rc_get_device_by_bda: device not found, returning NULL!
+09-09 01:47:17.796  1701  2697 E bt_btif : btif_rc_get_connected_peer_handle: p_dev NULL
+09-09 01:47:17.796  1701  2697 E bt_btif : btif_rc_process_auto_play rc_id == pause set call end pause false
+09-09 01:47:38.004  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb40000790a8296e0 start:1
+09-09 01:47:38.004  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:47:38.040  1701  1701 E BluetoothActiveDeviceManager: Received unexpected intent, action=android.bluetooth.headset.profile.action.AUDIO_STATE_CHANGED
+09-09 01:47:38.673  1701  1701 E BluetoothActiveDeviceManager: Received unexpected intent, action=android.bluetooth.headset.profile.action.AUDIO_STATE_CHANGED
+09-09 01:47:41.385   905   905 E wificond: vivo add tx_good 217019 tx_bad 129 rx_good 447838 tx_retry 15644
+09-09 01:47:45.799  1701  1701 E BluetoothActiveDeviceManager: Received unexpected intent, action=android.bluetooth.headset.profile.action.AUDIO_STATE_CHANGED
+09-09 01:49:25.529  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cc60 start:1
+09-09 01:49:25.536  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:49:25.559  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:54:08.081  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cc50 start:1
+09-09 01:54:08.102  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:54:08.125  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 01:54:15.162  1701  2697 E bt_btif : bta_dm_pm_btm_status hci_status=36
+09-09 01:56:33.753  1701  2697 E bt_btif : btif_rc_get_device_by_bda: device not found, returning NULL!
+09-09 01:56:33.753  1701  2697 E bt_btif : btif_rc_get_connected_peer_handle: p_dev NULL
+09-09 01:56:33.753  1701  2697 E bt_btif : btif_rc_process_auto_play rc_id == pause set call end pause false
+09-09 01:56:33.801  1701  2697 E bt_btif : btif_rc_get_device_by_bda: device not found, returning NULL!
+09-09 01:56:33.801  1701  2697 E bt_btif : btif_rc_get_connected_peer_handle: p_dev NULL
+09-09 01:56:33.801  1701  2697 E bt_btif : btif_rc_process_auto_play rc_id == pause set call end pause false
+09-09 01:58:35.774  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cc10 start:1
+09-09 02:05:31.961  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cce0 start:1
+09-09 02:05:31.980  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:05:32.003  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:07:46.713  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cdf0 start:1
+09-09 02:07:46.734  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:07:46.758  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:12:03.169  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81ce30 start:1
+09-09 02:12:03.190  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:12:03.213  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:13:37.336  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81ccb0 start:1
+09-09 02:13:37.357  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:18:02.925  1701  2820 E bt_stack: [ERROR:repeating_timer.cc(153)] RunTask: Periodic task execution took 25614 microseconds, longer than interval 23000 microseconds
+09-09 02:18:02.937  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb40000790a829560 start:1
+09-09 02:18:02.943  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:18:03.012  1701  2820 I chatty  : uid=1002(bluetooth) bt_a2dp_source_ identical 3 lines
+09-09 02:18:03.035  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:18:03.058  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:22:10.870  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cc40 start:1
+09-09 02:29:12.209  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb40000790a8295c0 start:1
+09-09 02:29:12.226  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:29:12.249  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:47:20.643  1701  2820 E bt_stack: [ERROR:repeating_timer.cc(153)] RunTask: Periodic task execution took 23285 microseconds, longer than interval 23000 microseconds
+09-09 02:47:21.362  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81ccf0 start:1
+09-09 02:47:21.378  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:58:37.767  1701  2820 E bt_stack: [ERROR:repeating_timer.cc(153)] RunTask: Periodic task execution took 38619 microseconds, longer than interval 23000 microseconds
+09-09 02:58:37.798  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:58:37.844  1701  2820 I chatty  : uid=1002(bluetooth) bt_a2dp_source_ identical 2 lines
+09-09 02:58:37.867  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:58:37.890  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:58:37.897  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 02:58:37.897  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 02:58:37.897  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507b901874379050000
+09-09 02:58:37.898  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 02:58:37.898  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():000000000000000007000000000000000000000000000000030000000b00000000000000000000002119000000000000864379054e437905
+09-09 02:58:37.898  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 02:58:37.898  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():500000f0ffffffffffffff7f0000260009000800000024000900080000002400090008000000240009000800
+09-09 02:58:37.898  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb40000790a829330 start:1
+09-09 02:58:37.913  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:58:37.936  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:58:37.954  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 02:58:37.954  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 02:58:37.954  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507b901c74479050000
+09-09 02:58:37.954  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 02:58:37.954  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000a000000000000000000000000000000080000001300000000000000000000002119000000000000c6447905c6447905
+09-09 02:58:37.954  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 02:58:37.954  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():a00000f0ffffffffffffff7f09000800000024000900080000000a000070c000090000000000240009000800
+09-09 02:58:37.959  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:58:37.982  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 02:58:38.005  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 03:02:26.657  1701  2820 E bt_stack: [ERROR:repeating_timer.cc(153)] RunTask: Periodic task execution took 31844 microseconds, longer than interval 23000 microseconds
+09-09 03:02:26.661  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81c5e0 start:1
+09-09 03:02:26.671  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 03:02:26.694  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 03:21:08.251  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000078fa81cc60 start:1
+09-09 03:21:08.264  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 04:16:12.940  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:12.940  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:12.940  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507bd011f7d5c060000
+09-09 04:16:12.940  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:12.940  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():000000000000000007000000000000000000000000000000070000000f0000000000000000000000081a0000000000001e7d5c061e7d5c06
+09-09 04:16:12.940  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:12.940  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():500000f0ffffffffffffff7f0000020020000200000002002000020000000200090000002000020000000200
+09-09 04:16:13.004  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.004  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.004  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507be01777e5c060000
+09-09 04:16:13.004  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:13.004  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():01000000000000000d0000000000000000000000000000000f0000001f0000000000000000000000081a000000000000767e5c06767e5c06
+09-09 04:16:13.004  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:13.004  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():a00000f0ffffffffffffff7f0900080000002400090000002000020000000a00090008000000240009002c00
+09-09 04:16:13.005  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.005  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.005  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507be01cb7f5c060000
+09-09 04:16:13.005  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:13.005  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():010000000000000013000000000000000000000000000000170000002e0000000000000000000000081a000000000000ca7f5c06ca7f5c06
+09-09 04:16:13.005  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:13.005  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():f00000f0ffffffffffffff7f0000240009000000090008000000240009000800000024000900080000002400
+09-09 04:16:13.006  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.006  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.006  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507bd01fb815c060000
+09-09 04:16:13.006  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:13.006  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():010000000000000013000000000000000000000000000000170000002f0000000000000000000000081a000000000000fa815c06fa815c06
+09-09 04:16:13.006  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:13.006  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():000000f0ffffffffffffff7f0000240009000800000018000070080209000000000024000900080000002400
+09-09 04:16:13.006  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.007  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.007  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507be015b855c060000
+09-09 04:16:13.007  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:13.007  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():01000000000000001300000000000000000000000000000017000000300000000000000000000000081a0000000000005a855c065a855c06
+09-09 04:16:13.007  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:13.007  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():500000f0ffffffffffffff7f0000240009000800000018000070080209001000200002000000040000705203
+09-09 04:16:13.007  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.008  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.008  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507bd01a3865c060000
+09-09 04:16:13.008  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:13.008  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():0100000000000000190000000000000000000000000000001c0000003c0000000000000000000000081a000000000000a2865c06a2865c06
+09-09 04:16:13.008  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:13.008  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():a00000f0ffffffffffffff7f0000240009000800000024000900080000002400090008000000240009000000
+09-09 04:16:13.008  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.008  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.009  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507bc013b885c060000
+09-09 04:16:13.009  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:13.009  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():01000000000000001d0000000000000000000000000000001c000000410000000000000000000000081a0000000000003a885c063a885c06
+09-09 04:16:13.009  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:13.009  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():f00000f0ffffffffffffff7f09000800000020000070c0000900000000002400090008000000240009000800
+09-09 04:16:13.009  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.009  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.009  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507bd019f8a5c060000
+09-09 04:16:13.009  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:13.010  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():01000000000000001d0000000000000000000000000000001c000000420000000000000000000000081a0000000000009e8a5c069e8a5c06
+09-09 04:16:13.010  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:13.010  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():400100f0ffffffffffffff7f09000800000020000070c000090009000000010000705a020900000009000800
+09-09 04:16:13.010  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.010  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.010  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507bd01f78b5c060000
+09-09 04:16:13.010  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:13.010  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():01000000000000002300000000000000000000000000000025000000520000000000000000000000081a000000000000f68b5c06f68b5c06
+09-09 04:16:13.010  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:13.010  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():900100f0ffffffffffffff7f0000240009002c000000240009000800000024000900000009000a0000002200
+09-09 04:16:13.011  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.011  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.011  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507bd014b8d5c060000
+09-09 04:16:13.011  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:13.011  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():0100000000000000290000000000000000000000000000002d000000610000000000000000000000081a0000000000004a8d5c064a8d5c06
+09-09 04:16:13.011  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:13.011  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():e00100f0ffffffffffffff7f0000020020000200000002002000020000000200090008002000020000000200
+09-09 04:16:13.011  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.012  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.012  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507bd01a38e5c060000
+09-09 04:16:13.012  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:13.012  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():02000000000000002f00000000000000000000000000000035000000710000000000000000000000081a000000000000a28e5c06a28e5c06
+09-09 04:16:13.012  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:13.012  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():300200f0ffffffffffffff7f0000240009000800000024000900080000002400090008000000240009000800
+09-09 04:16:13.012  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.012  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.012  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507bd01f38f5c060000
+09-09 04:16:13.012  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:13.012  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():0200000000000000350000000000000000000000000000003c0000007f0000000000000000000000081a000000000000f28f5c06f28f5c06
+09-09 04:16:13.012  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:13.013  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():800200f0ffffffffffffff7f0900080000002400090008000000240009000800000024000900240000002400
+09-09 04:16:13.013  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.013  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:16:13.013  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507be014b915c060000
+09-09 04:16:13.013  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:16:13.013  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():02000000000000003b000000000000000000000000000000450000008f0000000000000000000000081a0000000000004a915c064a915c06
+09-09 04:16:13.013  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:16:13.013  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():d00200f0ffffffffffffff7f0000240009002c00000024000900080000002400090008000000240009000800
+09-09 04:16:13.021  1701  2820 E bt_stack: [ERROR:repeating_timer.cc(153)] RunTask: Periodic task execution took 1593982 microseconds, longer than interval 23000 microseconds
+09-09 04:17:15.014  1701  2820 E bt_stack: [ERROR:repeating_timer.cc(153)] RunTask: Periodic task execution took 612925 microseconds, longer than interval 23000 microseconds
+09-09 04:17:15.017  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:17:15.017  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:17:15.017  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507bf0127925f060000
+09-09 04:17:15.017  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:17:15.017  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000200000000000000000000000000000000000000030000000000000000000000121a00000000000026925f0626925f06
+09-09 04:17:15.017  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:17:15.017  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():500000f0ffffffffffffff7f2000020000000200200002000000020020000200000002002000020000000200
+09-09 04:17:15.018  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:17:15.018  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:17:15.018  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507be0177935f060000
+09-09 04:17:15.018  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:17:15.018  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000800000000000000000000000000000007000000110000000000000000000000121a00000000000076935f064a935f06
+09-09 04:17:15.018  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:17:15.018  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():a00000f0ffffffffffffff7f2000020000001e00090024000000240009000800000024000900080000002400
+09-09 04:17:15.018  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507be01cf945f060000
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000f0000000000000000000000000000000f000000200000000000000000000000121a000000000000ce945f06ce945f06
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():f00000f0ffffffffffffff7f0000240009000800000024000900080000002400090008000000240009000800
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507bf011f965f060000
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():000000000000000015000000000000000000000000000000160000002e0000000000000000000000121a0000000000001e965f061e965f06
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():400100f0ffffffffffffff7f0900080000002400090008000000240009002400000024000900080000002400
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507bc017b975f060000
+09-09 04:17:15.019  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:17:15.020  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():01000000000000001b0000000000000000000000000000001f0000003f0000000000000000000000121a0000000000007a975f064a975f06
+09-09 04:17:15.020  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:17:15.020  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():900100f0ffffffffffffff7f0000220009000800000024000900080000002400090008000000240009000800
+09-09 04:18:53.338  1701  2820 E bt_stack: [ERROR:repeating_timer.cc(153)] RunTask: Periodic task execution took 151931 microseconds, longer than interval 23000 microseconds
+09-09 04:18:53.392  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:18:53.393  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:18:53.393  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507be010f6564060000
+09-09 04:18:53.393  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:18:53.393  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000400000000000000000000000000000000000000040000000000000000000000121a0000000000000e6564060e656406
+09-09 04:18:53.393  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:18:53.393  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():500000f0ffffffffffffff7f09000a00000020000070c0000900000000000e0009000c000000260009000800
+09-09 04:18:53.432  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():970e5f38112542617365757320456e636f6b20574d30310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:18:53.432  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+09-09 04:18:53.432  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000240404030abb22d60507be01bb6664060000
+09-09 04:18:53.432  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_BASIC_INFO
+09-09 04:18:53.432  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():00000000000000000400000000000000000000000000000000000000050000000000000000000000121a000000000000ba666406ba666406
+09-09 04:18:53.432  1701  2697 E bt_btif : pL2CA_DataInd_Cb: tMONITOR_LINK_STATE
+09-09 04:18:53.432  1701  2697 E bt_btif : pL2CA_DataInd_Cb: c_str():000000f0ffffffffffffff7f09000a00000020000070c0000900060000709c01090000000000260009000800
+09-09 04:18:53.941  1701  2697 E bt_btif : bta_av_str_stopped: peer 97:0e:5f:38:11:25 bta_handle:0x41 audio_open_cnt:1, p_data 0xb4000079a0e4b670 start:1
+09-09 04:18:53.945  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 04:18:54.014  1701  2820 I chatty  : uid=1002(bluetooth) bt_a2dp_source_ identical 3 lines
+09-09 04:18:54.037  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 04:18:54.060  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 04:18:54.083  1701  2820 E bt_btif_a2dp_source: btif_a2dp_source_audio_handle_timer: ERROR Media task Scheduled after Suspend
+09-09 04:31:29.164  1701  2820 E bt_stack: [ERROR:repeating_timer.cc(153)] RunTask: Periodic task execution took 27395 microseconds, longer than interval 23000 microseconds
